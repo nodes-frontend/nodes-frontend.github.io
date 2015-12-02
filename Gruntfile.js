@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 				branch: 'master',
 				base: '<%= config.dist %>'
 			},
-			src: ['**']
+			src: ['**/*', '.gitignore']
 		},
 
 		/*
