@@ -9,10 +9,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="assets/css/main.min.9095c1b6.css">
+        <!-- build:css(.tmp) assets/css/main.min.css -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- endbuild -->
 
     </head>
-    <body ng-app="assemble-blog">
+    <body ng-app="nBlog">
 
         <h1>Assemble-Blog</h1>
 
@@ -46,9 +48,20 @@
             //ga('send', 'pageview');
         </script>
 
-        <script src="assets/js/vendor.56e0f0b5.js"></script>
+        <!-- build:js(.) assets/js/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/what-input/what-input.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
-        <script src="assets/js/site.e08b7495.js"></script>
+        <!-- build:js assets/js/site.js -->
+        <script src="app/config/app.js"></script>
+        <script src="app/config/config.js"></script>
+        <script src="app/config/run.js"></script>
+        <script src="app/modules/index/index.js"></script>
+        <!-- endbuild -->
 
     </body>
 </html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+	Variables - these must be loaded before anything else!
+
+	Order of imports should be as follows:
+	- Your own custom variables (this let's you use these in the Foundation variables file)
+	- Foundation variables
+	- Third party utils/libs etc. that should have access to yours and foundations variables
+*/
+@import "variables/site";
+@import "variables/foundation";
+
+/*
+	Bower Wiredep import point - this entry points let's us inject scss dependencies via Grunt Wiredep
+*/
+// bower:scss
+@import "../../../../bower_components/foundation-sites/scss/foundation.scss";
+// endbower
+
+/*
+	Include all of foundation for now
+*/
+@include foundation-everything;
+
+/*
+	Base Styles
+*/
+@import "base/fonts";
+@import "base/syntax-highlighting";
+
+/*
+	Elements
+*/
+@import "elements/code";
+
+/*
+	Components
+*/
+@import "components/code-blocks";

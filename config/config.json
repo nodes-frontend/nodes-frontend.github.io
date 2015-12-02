@@ -1,0 +1,8 @@
+{
+	"tasks": {
+		"sourceDIR": "./src",
+		"buildDIR": "./dist",
+		"buildMatchPattern": "dist",
+		"tempDIR": ".tmp"
+	}
+}
