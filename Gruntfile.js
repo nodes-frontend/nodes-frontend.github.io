@@ -77,9 +77,10 @@ module.exports = function(grunt) {
 		'gh-pages': {
 			options: {
 				branch: 'master',
-				base: '<%= config.dist %>'
+				base: '<%= config.dist %>',
+				dotfiles: true
 			},
-			src: ['**/*', '.gitignore']
+			src: ['**/*']
 		},
 
 		/*
