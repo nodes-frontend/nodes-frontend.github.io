@@ -3,19 +3,25 @@
         {
             "title": "First!",
             "posted": "2014-01-28T00:00:00.000Z",
-            "path": "content/blog/folder/first-post.html"
+            "path": "content/blog/folder/first-post.html",
+            "filename": "first-post.html",
+            "basename": "first-post"
         },
         {
             "title": "Second!",
             "posted": "2015-11-19T00:00:00.000Z",
-            "path": "content/blog/second-post.html"
+            "path": "content/blog/second-post.html",
+            "filename": "second-post.html",
+            "basename": "second-post"
         }
     ],
     "pages": [
         {
             "title": "Welcome",
             "posted": "2014-01-28T00:00:00.000Z",
-            "path": "content/pages/index.html"
+            "path": "content/pages/index.html",
+            "filename": "index.html",
+            "basename": "index"
         }
     ]
 }
