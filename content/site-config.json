@@ -19,9 +19,9 @@
         {
             "title": "Welcome",
             "posted": "2014-01-28T00:00:00.000Z",
-            "path": "content/pages/index.html",
-            "filename": "index.html",
-            "basename": "index"
+            "path": "content/pages/about.html",
+            "filename": "about.html",
+            "basename": "about"
         }
     ]
 }

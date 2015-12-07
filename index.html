@@ -4,12 +4,16 @@
         <meta charset="utf-8">
         <title>assemble-blog</title>
 
-        <base href="/">
-
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="/assets/css/main.min.c4eb67fe.css">
+
+        <style>
+            [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+                display: none !important;
+            }
+        </style>
 
     </head>
     <body ng-app="nBlog">
@@ -25,7 +29,7 @@
         </ul>
 
         <!-- Application Entry: -->
-        <div ui-view="application"></div>
+        <div ui-view="application" ng-cloak></div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
         <script>
@@ -40,7 +44,7 @@
 
         <script src="/assets/js/vendor.5fffe9fc.js"></script>
 
-        <script src="/assets/js/site.1ed052e1.js"></script>
+        <script src="/assets/js/site.51a0604c.js"></script>
 
     </body>
 </html>
