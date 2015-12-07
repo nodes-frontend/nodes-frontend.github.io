@@ -3,7 +3,19 @@
 
 	angular
 		.module('nBlog', [
-			'config'
+			'ui.router',
+			'config',
+			'api',
+			'notFound',
+			'PageHelpers',
+			'BlogHelpers',
+			'Site',
+			'Posts',
+			'Pages',
+			'application',
+			'index',
+			'page',
+			'blog',
 		]
 	);
 

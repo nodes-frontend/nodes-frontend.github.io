@@ -4,14 +4,18 @@
         <meta charset="utf-8">
         <title>assemble-blog</title>
 
-        <base href="/">
-
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <!-- build:css(.tmp) assets/css/main.min.css -->
         <link rel="stylesheet" href="assets/css/main.css">
         <!-- endbuild -->
+
+        <style>
+            [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+                display: none !important;
+            }
+        </style>
 
     </head>
     <body ng-app="nBlog">
@@ -26,16 +30,8 @@
             <li>Foundation for Sites v6</li>
         </ul>
 
-        <p>Here's some content loaded async:</p>
-
-        <div ng-controller="demoCtrl as demo">
-            <div ng-bind-html="demo.content"></div>
-
-            <div demo-directive></div>
-        </div>
-
         <!-- Application Entry: -->
-        <div ui-view="application"></div>
+        <div ui-view="application" ng-cloak></div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
         <script>
@@ -53,6 +49,7 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/what-input/what-input.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -60,7 +57,36 @@
         <script src="app/config/app.js"></script>
         <script src="app/config/config.js"></script>
         <script src="app/config/run.js"></script>
-        <script src="app/modules/index/index.js"></script>
+        <script src="app/config/api.module.js"></script>
+        <script src="app/config/api.constant.js"></script>
+        <script src="app/common/utils/page-helpers/PageHelpers.module.js"></script>
+        <script src="app/common/utils/page-helpers/PageHelpers.service.js"></script>
+        <script src="app/common/utils/blog-helpers/BlogHelpers.module.js"></script>
+        <script src="app/common/utils/blog-helpers/BlogHelpers.service.js"></script>
+        <script src="app/modules/application/application.module.js"></script>
+        <script src="app/modules/application/application.route.js"></script>
+        <script src="app/modules/application/application.controller.js"></script>
+        <script src="app/modules/404/404.module.js"></script>
+        <script src="app/modules/404/404.route.js"></script>
+        <script src="app/modules/404/404.controller.js"></script>
+        <script src="app/modules/index/index.module.js"></script>
+        <script src="app/modules/index/index.route.js"></script>
+        <script src="app/modules/index/index.controller.js"></script>
+        <script src="app/modules/page/page.module.js"></script>
+        <script src="app/modules/page/page.route.js"></script>
+        <script src="app/modules/page/page.controller.js"></script>
+        <script src="app/modules/blog/blog.module.js"></script>
+        <script src="app/modules/blog/blog.route.js"></script>
+        <script src="app/modules/blog/blog.controller.js"></script>
+        <script src="app/modules/blog/single/blog-single.controller.js"></script>
+        <script src="app/models/site/Site.module.js"></script>
+        <script src="app/models/site/Site.service.js"></script>
+        <script src="app/models/post/Posts.module.js"></script>
+        <script src="app/models/post/Post.factory.js"></script>
+        <script src="app/models/post/Posts.service.js"></script>
+        <script src="app/models/page/Page.module.js"></script>
+        <script src="app/models/page/Page.factory.js"></script>
+        <script src="app/models/page/Page.service.js"></script>
         <!-- endbuild -->
 
     </body>

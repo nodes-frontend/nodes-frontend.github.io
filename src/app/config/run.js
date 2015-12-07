@@ -1,21 +1,20 @@
 (function() {
 	'use strict';
 
-	function run(appConfig, $window) {
+	function run($rootScope, $state, Site) {
+		console.info('Bootstrapping Angular v.:', angular.version.full);
+		console.log()
+		$rootScope.$on('$stateChangeStart', function(event, toState, toParams) {
+			if(Object.keys(Site.collection).length < 1) {
+				console.info('No Site Configuration found, fetching...');
+				event.preventDefault();
 
-		console.info('Starting Application ', angular);
-
-		_setRootUrl();
-
-		function _setRootUrl() {
-
-			var path = $window.location.pathname;
-
-			path = path.slice(1);
-
-			appConfig.setConfig('ROOT_URL', path);
-
-		}
+				Site.init()
+						.then(function() {
+							$state.go(toState, toParams);
+						});
+			}
+		})
 
 	}
 

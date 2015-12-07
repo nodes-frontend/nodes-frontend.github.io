@@ -1,0 +1,19 @@
+<h1>BLOGICATION</h1>
+
+<ul class="menu">
+    <li ng-repeat="page in application.pages">
+        <a ui-sref="application.page({
+            path: page.basename,
+            filePath: page.path
+        })">
+            {{page.title}}
+        </a>
+    </li>
+    <li>
+        <a ui-sref="application.blog">
+            Blog
+        </a>
+    </li>
+</ul>
+
+<div ui-view="main"></div>

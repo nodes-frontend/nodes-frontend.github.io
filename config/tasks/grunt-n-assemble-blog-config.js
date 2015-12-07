@@ -46,7 +46,9 @@ module.exports = function(params, callback) {
 		var item = {
 			title: file.data.title,
 			posted: file.data.posted,
-			path: file.dest.replace('dist/', '')
+			path: file.dest.replace('dist/', ''),
+			filename: file.filename,
+			basename: file.basename
 		};
 
 		blogConfigJson[type].push(item);

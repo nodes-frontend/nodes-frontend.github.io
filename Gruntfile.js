@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 					'<%= config.src %>/content/pages/**/*.hbs',
 					'<%= config.src %>/data/**/*'
 				],
-				tasks: ['assemble', 'copy:pageAssets', 'copy:siteAssets']
+				tasks: ['assemble', 'copy:pageAssets', 'copy:pageAssets']
 			},
 			sass: {
 				files: [

@@ -1,0 +1,14 @@
+<p>This is the blog view.</p>
+
+<ul>
+    <li ng-repeat="post in blog.posts track by $index">
+        <a ui-sref="application.blog.single({
+            path: post.basename,
+            filePath: post.path
+        })">
+            {{post.title}}
+        </a>
+    </li>
+</ul>
+
+<div ui-view="content"></div>
