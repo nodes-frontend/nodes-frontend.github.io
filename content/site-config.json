@@ -17,11 +17,18 @@
     ],
     "pages": [
         {
-            "title": "Welcome",
+            "title": "About",
             "posted": "2014-01-28T00:00:00.000Z",
             "path": "content/pages/about.html",
             "filename": "about.html",
             "basename": "about"
+        },
+        {
+            "title": "Team",
+            "posted": "2014-01-28T00:00:00.000Z",
+            "path": "content/pages/team.html",
+            "filename": "team.html",
+            "basename": "team"
         }
     ]
 }
