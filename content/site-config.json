@@ -1,31 +1,48 @@
 {
     "blog": [
         {
+            "id": "f1129e48-05ec-480f-9838-3bd84809e82a",
             "title": "First!",
             "posted": "2014-01-28T00:00:00.000Z",
+            "isAngular": false,
             "path": "content/blog/folder/first-post.html",
             "filename": "first-post.html",
             "basename": "first-post"
         },
         {
+            "id": "b77e201f-f815-4518-ba70-0e356182b498",
             "title": "Second!",
             "posted": "2015-11-19T00:00:00.000Z",
+            "isAngular": false,
             "path": "content/blog/second-post.html",
             "filename": "second-post.html",
             "basename": "second-post"
+        },
+        {
+            "id": "93fb041c-6d62-4e20-83a6-cdb947527263",
+            "title": "Natmad",
+            "posted": "2014-01-28T00:00:00.000Z",
+            "isAngular": true,
+            "path": "content/blog/folder/sub/natmad.html",
+            "filename": "natmad.html",
+            "basename": "natmad"
         }
     ],
     "pages": [
         {
+            "id": "ad23ad70-d739-4bc4-84ef-8d967e2a0e45",
             "title": "About",
             "posted": "2014-01-28T00:00:00.000Z",
+            "isAngular": true,
             "path": "content/pages/about.html",
             "filename": "about.html",
             "basename": "about"
         },
         {
+            "id": "545bc598-23d9-4de6-8a66-f94b028f29eb",
             "title": "Team",
             "posted": "2014-01-28T00:00:00.000Z",
+            "isAngular": false,
             "path": "content/pages/team.html",
             "filename": "team.html",
             "basename": "team"

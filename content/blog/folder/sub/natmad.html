@@ -1,0 +1,21 @@
+<h1>Angular Artiklen!</h1>
+
+<p>Denne artikel er en .hbs fil... Men det skal ikke stoppe os fra at Angulizzlejizze!</p>
+<p>Først, lad os se om vi kan tilgå data fra &quot;blog&quot; modulet, som rendere denne .hbs fil i ngApp:</p>
+<pre><code>
+{{blogSingle.postModel | json}}
+</code></pre>
+
+<p>Nice... :-)</p>
+
+<p>Lad os nu prøve igen, men denne gang har vi lavet en controller, som vi bare har tænkt skal bruges til netop denne artikel.</p>
+<p>pt. ligger controlleren sammen med sin artikel her: content/blog/folder/sub/natmad.js - vi loader den med det fap-tastiske ocLazyload modul:</p>
+
+<div oc-lazy-load="['content/blog/folder/sub/natmad.js']">
+    <div ng-controller="natmadCtrl as yolo">
+<pre><code>
+{{yolo | json}}
+</code></pre>
+    </div>
+</div>
+

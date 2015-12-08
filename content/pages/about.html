@@ -1,1 +1,21 @@
-<p>All kind of barned about me!</p>
+<h1>Angular Siden!</h1>
+
+<p>Denne side er en .hbs fil... Men det skal ikke stoppe os fra at Angulizzlejizze!</p>
+<p>Først, lad os se om vi kan tilgå data fra &quot;page&quot; modulet, som rendere denne .hbs fil i ngApp:</p>
+<pre><code>
+{{page.model | json}}
+</code></pre>
+
+<p>Nice... :-)</p>
+
+<p>Lad os nu prøve igen, men denne gang har vi lavet en controller, som vi bare har tænkt skal bruges til netop denne side.</p>
+<p>pt. ligger controlleren i content/pages/about.js - vi loader den med det fap-tastiske ocLazyload modul:</p>
+
+<p><div oc-lazy-load="['content/pages/about.js']">
+    <div ng-controller="yoloCtrl as yolo"></p>
+<p><pre><code>
+{{yolo | json}}
+</code></pre>
+    </div>
+</div>
+All kind of barned about me!</p>
