@@ -27,7 +27,7 @@
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["assets/css/main.min.c4eb67fe.css","c4eb67fe1bd4f4da342162c9499de098"],["assets/fonts/CrimsonText-Bold.ttf","7c5a522c882d6ad8876545b90a4c2b38"],["assets/fonts/CrimsonText-BoldItalic.ttf","3469d9f14554deffd9be95abf588d699"],["assets/fonts/CrimsonText-Italic.ttf","cde5e3a8acb5d68805d01f2702534cf4"],["assets/fonts/CrimsonText-Roman.ttf","ca4e112f807260e7cfba634a51ac6735"],["assets/fonts/CrimsonText-Semibold.ttf","b2aaf0a3a5e884535248d205c5aba309"],["assets/fonts/CrimsonText-SemiboldItalic.ttf","129a5ed794bcb947ec4f7f6aa88c2db9"],["assets/fonts/Montserrat-Bold.ttf","d3085f686df272f9e1a267cc69b2d24f"],["assets/fonts/Montserrat-Regular.ttf","07689d4eaaa3d530d58826b5d7f84735"],["assets/js/site.2331fb43.js","2331fb435c86efa394c31515c7ae418c"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"]];
+var PrecacheConfig = [["assets/css/main.min.c4eb67fe.css","c4eb67fe1bd4f4da342162c9499de098"],["assets/js/site.2331fb43.js","2331fb435c86efa394c31515c7ae418c"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"],["index.html","09d794385564e24300806b45a8ecc5ba"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1-nodes-frontend-' + (self.registration ? self.registration.scope : '') + '-';
 
