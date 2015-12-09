@@ -1,7 +1,7 @@
 {
     "blog": [
         {
-            "id": "cf3ca900-d0e8-459c-98af-7436bc21edf2",
+            "id": "3e867948-6e62-451d-a3cc-ab3448b883e8",
             "title": "First!",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": false,
@@ -10,7 +10,7 @@
             "basename": "first-post"
         },
         {
-            "id": "8c49db76-e18d-4827-b258-2a23a43653d2",
+            "id": "82dcc50a-ad10-42e3-ac00-c362fda0f0bd",
             "title": "Second!",
             "posted": "2015-11-19T00:00:00.000Z",
             "isAngular": false,
@@ -19,7 +19,7 @@
             "basename": "second-post"
         },
         {
-            "id": "50249b1f-a97a-41ee-92f3-9acf0a5bf02c",
+            "id": "277a711b-c4d1-421f-b150-5263f7332e71",
             "title": "Natmad",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": true,
@@ -30,7 +30,7 @@
     ],
     "pages": [
         {
-            "id": "0749f411-674d-4432-bf35-08a1ee8db89c",
+            "id": "f1f4ac6a-b825-41c5-af2f-6e23a7895b56",
             "title": "About",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": true,
@@ -39,7 +39,7 @@
             "basename": "about"
         },
         {
-            "id": "e88e7a78-65b0-415a-b9f5-1c74b4f59955",
+            "id": "971f211d-4509-4c02-9d83-1184c46e944d",
             "title": "Team",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": false,
