@@ -25,9 +25,11 @@
 'use strict';
 
 
+importScripts("sw-toolbox.js","sw-toolbox-config.js");
+
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["assets/css/main.min.c4eb67fe.css","c4eb67fe1bd4f4da342162c9499de098"],["assets/js/site.2331fb43.js","2331fb435c86efa394c31515c7ae418c"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"],["content/blog/folder/a.svg","875c3fad295cc4fe6121704cd3c162bb"],["content/blog/folder/first-post.html","10001ac5b27a555b585cd2c5b5c9cadb"],["content/blog/folder/skeletor.jpg","9ea94e432fb312f151c1b1ae8505234a"],["content/blog/folder/sub/natmad.html","4fd2c3358ac171a0d47140b0d787e620"],["content/blog/second-post.html","cf6f11452bd38aa1cf19388881590a6f"],["content/pages/a.svg","875c3fad295cc4fe6121704cd3c162bb"],["content/pages/about.html","3fa6b5f463a431f173c45960e811cc51"],["content/pages/skeletor.jpg","9ea94e432fb312f151c1b1ae8505234a"],["content/pages/team.html","5f32249229a34b10c570c92c8f1e32b1"],["content/site-config.json","7ff9a771db2c40f524f552e135b0f311"],["index.html","09d794385564e24300806b45a8ecc5ba"]];
+var PrecacheConfig = [["assets/css/main.min.c4eb67fe.css","c4eb67fe1bd4f4da342162c9499de098"],["assets/js/site.2331fb43.js","2331fb435c86efa394c31515c7ae418c"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"],["index.html","09d794385564e24300806b45a8ecc5ba"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1-nodes-frontend-' + (self.registration ? self.registration.scope : '') + '-';
 

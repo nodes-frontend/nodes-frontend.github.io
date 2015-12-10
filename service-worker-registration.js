@@ -16,14 +16,13 @@
 
 /* eslint-env browser */
 'use strict';
-console.log(navigator)
 if ('serviceWorker' in navigator) {
 	// Your service-worker.js *must* be located at the top-level directory relative to your site.
 	// It won't be able to control pages unless it's located at the same level or higher than them.
 	// *Don't* register service worker file in, e.g., a scripts/ sub-directory!
 	// See https://github.com/slightlyoff/ServiceWorker/issues/468
 	navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-		console.warn(registration)
+
 		// Check to see if there's an updated version of service-worker.js with new files to cache:
 		// https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-registration-update-method
 		if (typeof registration.update === 'function') {
@@ -32,13 +31,12 @@ if ('serviceWorker' in navigator) {
 
 		// updatefound is fired if service-worker.js changes.
 		registration.onupdatefound = function() {
-			console.warn('hej');
 			// The updatefound event implies that registration.installing is set; see
 			// https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
 			var installingWorker = registration.installing;
 
 			installingWorker.onstatechange = function() {
-				console.warn(installingWorker.state)
+
 				switch (installingWorker.state) {
 					case 'installed':
 						if (navigator.serviceWorker.controller) {
