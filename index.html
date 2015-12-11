@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="/assets/css/main.min.c4eb67fe.css">
+        <link rel="stylesheet" href="/assets/css/main.min.bce0ec18.css">
 
         <style>
             [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -18,19 +18,19 @@
     </head>
     <body ng-app="nBlog">
 
-        <h1>Assemble-Blog</h1>
+        <!--<h1>Assemble-Blog</h1>-->
 
-        <p>Build with:</p>
-        <ul>
-            <li>Grunt</li>
-            <li>Assemble</li>
-            <li>Angular.js</li>
-            <li>Foundation for Sites v6</li>
-        </ul>
+        <!--<p>Build with:</p>-->
+        <!--<ul>-->
+            <!--<li>Grunt</li>-->
+            <!--<li>Assemble</li>-->
+            <!--<li>Angular.js</li>-->
+            <!--<li>Foundation for Sites v6</li>-->
+        <!--</ul>-->
 
-        <div>
-            <button id="clear-cache">Clear Cache</button>
-        </div>
+        <!--<div>-->
+            <!--<button id="clear-cache">Clear Cache</button>-->
+        <!--</div>-->
 
         <!-- Application Entry: -->
         <div ui-view="application" ng-cloak></div>
@@ -48,7 +48,7 @@
 
         <script src="/assets/js/vendor.f1f82df6.js"></script>
 
-        <script src="/assets/js/site.2331fb43.js"></script>
+        <script src="/assets/js/site.a7073524.js"></script>
 
         <script src="/service-worker-registration.js"></script>
         <script>
@@ -69,13 +69,13 @@
                     }
                 });
             }
-            document.querySelector('#clear-cache').addEventListener('click', function() {
-                sendMessage({command: 'delete_all'}).then(function() {
-                    console.log('All caches deleted.');
-                }).catch(function(error) {
-                    console.error('Caches not deleted:', error);
-                });
-            });
+//            document.querySelector('#clear-cache').addEventListener('click', function() {
+//                sendMessage({command: 'delete_all'}).then(function() {
+//                    console.log('All caches deleted.');
+//                }).catch(function(error) {
+//                    console.error('Caches not deleted:', error);
+//                });
+//            });
         </script>
 
     </body>

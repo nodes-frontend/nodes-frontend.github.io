@@ -1,51 +1,61 @@
 {
     "blog": [
         {
-            "id": "892b2a3d-6680-411c-a50b-8795737c0856",
+            "id": "70772490-c194-4660-99f8-ce487a47101b",
             "title": "First!",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": false,
             "path": "content/blog/folder/first-post.html",
             "filename": "first-post.html",
-            "basename": "first-post"
+            "basename": "first-post",
+            "author": "dhni",
+            "category": "uncategorized"
         },
         {
-            "id": "354f460e-8b99-4cbe-a362-e63304ebfcd8",
+            "id": "3766ed70-faee-4e93-bc19-3c6fcc41851d",
             "title": "Second!",
             "posted": "2015-11-19T00:00:00.000Z",
             "isAngular": false,
             "path": "content/blog/second-post.html",
             "filename": "second-post.html",
-            "basename": "second-post"
+            "basename": "second-post",
+            "author": "",
+            "category": "uncategorized"
         },
         {
-            "id": "385a885e-f725-4c8b-9e3f-b3548e76ff4c",
+            "id": "763cdb69-c5dd-450c-8461-5890b58a0150",
             "title": "Natmad",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": true,
             "path": "content/blog/folder/sub/natmad.html",
             "filename": "natmad.html",
-            "basename": "natmad"
+            "basename": "natmad",
+            "author": "",
+            "category": "uncategorized"
         }
     ],
     "pages": [
         {
-            "id": "d4609466-0797-4178-82a9-20b091fecd31",
+            "id": "e6590926-9601-4fff-81c7-1e1ebf35eaf9",
             "title": "About",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": true,
             "path": "content/pages/about.html",
             "filename": "about.html",
-            "basename": "about"
+            "basename": "about",
+            "author": "",
+            "category": "uncategorized"
         },
         {
-            "id": "f80cfcd2-e4dc-4746-bf81-cba661f68617",
+            "id": "1f14c7b8-ab83-412a-8a57-6a7181fd0165",
             "title": "Team",
             "posted": "2014-01-28T00:00:00.000Z",
             "isAngular": false,
             "path": "content/pages/team.html",
             "filename": "team.html",
-            "basename": "team"
+            "basename": "team",
+            "author": "",
+            "category": "uncategorized"
         }
     ]
 }

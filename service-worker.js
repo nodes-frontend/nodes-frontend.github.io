@@ -29,7 +29,7 @@ importScripts("sw-toolbox.js","sw-toolbox-config.js");
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["assets/css/main.min.c4eb67fe.css","c4eb67fe1bd4f4da342162c9499de098"],["assets/js/site.2331fb43.js","2331fb435c86efa394c31515c7ae418c"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"],["index.html","09d794385564e24300806b45a8ecc5ba"]];
+var PrecacheConfig = [["assets/css/main.min.bce0ec18.css","bce0ec186ba34f958c4347c2df0644d4"],["assets/js/site.a7073524.js","a7073524d489cd52512a247000a5a852"],["assets/js/vendor.f1f82df6.js","f1f82df65b3b5fc11cbef2e2908c4fee"],["content/site-config.json","8de2a43006ea334264f76270ec28edd8"],["data/authors.json","8d26462cfc74fad5b48c1f6310cd9735"],["index.html","e9ed9838345158a3b8723249e8921920"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1-nodes-frontend-' + (self.registration ? self.registration.scope : '') + '-';
 
